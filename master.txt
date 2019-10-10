@@ -1,0 +1,32 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="projectapplied.Site1" %>
+<!DOCTYPE html>  
+  <head>  
+     
+      <title>my layout</title>
+    <link href="css/my.css" rel="stylesheet" />  
+    <asp:ContentPlaceHolder ID="head" runat="server">  
+    </asp:ContentPlaceHolder>  
+        
+        <link rel="stylesheet" type="text/css" href="StyleSheet1.css" />
+    </head>
+    <body>
+        <header id="header">
+            <h1>LIBRARY MANAGEMENT</h1>
+        </header>
+       
+        <form id="form1" runat="server">
+
+        <div id="con">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+               
+      
+ 
+            </asp:ContentPlaceHolder>
+        </div>
+            </form>
+
+
+        <footer id="footer">
+            copyright@lambtoncollege
+        </footer>
+    </body>
