@@ -1,0 +1,27 @@
+@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="WebForm3.aspx.cs" Inherits="projectapplied.WebForm3" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+     <aside id="side">
+         <a href="Webform3.aspx">
+                <p>
+                    Welcome
+                </p>
+            </a>
+            
+            <a href="Webform4.aspx">
+                <p>My Profile</p>
+            </a>
+            <a href="#">
+                <p>Users</p>
+            </a>
+            <a href="#">Access Requests</a>
+        </aside>
+
+<h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </h1>
+<h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Welcome Administrator</h1>
+
+
+
+
+</asp:Content>
