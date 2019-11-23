@@ -1,0 +1,82 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="WebForm4.aspx.cs" Inherits="projectapplied.WebForm4" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+     <aside id="side">
+         <a href="Webform3.aspx">
+                <p>
+                    Welcome
+                </p>
+            </a>
+            
+            <a href="Webform4.aspx">
+                <p>My Profile</p>
+            </a>
+         </aside>
+    <h1>&nbsp;&nbsp;&nbsp; USER PROFILE</h1>
+    <asp:Label ID="Label1" runat="server" Text="Email Address"></asp:Label>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+    <br />
+    <br />
+    <asp:Label ID="Label2" runat="server" Text="Password"></asp:Label>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <asp:TextBox ID="TextBox2" runat="server" OnTextChanged="TextBox2_TextChanged"></asp:TextBox>
+    <br />
+    <br />
+    <asp:Label ID="Label3" runat="server" Text="First Name"></asp:Label>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
+     <br />
+     <br />
+     <asp:Label ID="Label9" runat="server" Text="Last Name"></asp:Label>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     <asp:TextBox ID="TextBox9" runat="server"></asp:TextBox>
+    <br />
+    <br />
+    <asp:Label ID="Label4" runat="server" Text="Date Of Birth"></asp:Label>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
+    <br />
+    <br />
+    <asp:Label ID="Label5" runat="server" Text="Access Type"></asp:Label>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <asp:DropDownList ID="DropDownList1" runat="server">
+        <asp:ListItem>Volunteer</asp:ListItem>
+        <asp:ListItem>Student</asp:ListItem>
+    </asp:DropDownList>
+    <br />
+    <br />
+
+    <asp:Label ID="Label6" runat="server" Text="Phone Number"></asp:Label>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <asp:TextBox ID="TextBox6" runat="server"></asp:TextBox>
+    <br />
+    <br />
+    <asp:Label ID="Label7" runat="server" Text="Department"></asp:Label>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <asp:DropDownList ID="DropDownList2" runat="server">
+        <asp:ListItem>Music</asp:ListItem>
+        <asp:ListItem>Art</asp:ListItem>
+    </asp:DropDownList>
+    <br />
+    <br />
+    <asp:Label ID="Label8" runat="server" Text="Address"></asp:Label>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <asp:TextBox ID="TextBox8" runat="server"></asp:TextBox>
+    <br />
+    <br />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <asp:Button ID="Button1" runat="server" Text="Edit" OnClick="Button1_Click" />
+
+
+
+
+
+
+
+
+
+
+
+</asp:Content>
